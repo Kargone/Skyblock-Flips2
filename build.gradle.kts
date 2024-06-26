@@ -82,6 +82,7 @@ dependencies {
     // If you don't want to log in with your real minecraft account, remove this line
     runtimeOnly("me.djtheredstoner:DevAuth-forge-legacy:1.1.2")
 
+    implementation("org.apache.httpcomponents:httpclient:4.5.10")
 }
 
 // Tasks:

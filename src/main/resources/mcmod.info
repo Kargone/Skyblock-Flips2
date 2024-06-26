@@ -1,18 +1,20 @@
 [
   {
     "modid": "${modid}",
-    "name": "Xample Mod",
-    "description": "A mod that is used as an example.",
+    "name": "Skyblock Flips",
+    "description": "A mod that sends chat messages to the Skyblock flips HTTP server",
     "version": "${version}",
     "mcversion": "${mcversion}",
     "url": "https://github.com/romangraef/Forge1.8.9Template/",
     "updateUrl": "",
     "authorList": [
-      "You"
+      "Kargone"
     ],
     "credits": "",
     "logoFile": "",
     "screenshots": [],
-    "dependencies": []
+    "dependencies": [
+        "Appache HTTPClient"
+    ]
   }
 ]
